@@ -49,7 +49,7 @@
     return info.promise;
   };
 
-  //This method is executed when the user press the "Login with facebook" button
+  //This method is executed when the user press the "facebook" button
   $scope.facebookSignIn = function() {
     facebookConnectPlugin.getLoginStatus(function(success){
       if(success.status === 'connected'){
