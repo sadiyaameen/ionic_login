@@ -12,5 +12,5 @@ angular.module('services', [])
   return {
     getUser: getUser,
     setUser: setUser
-  };
+  }; 
 });
